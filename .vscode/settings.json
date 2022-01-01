@@ -1,0 +1,13 @@
+{
+    "DockerRun.DisableDockerrc": true,
+    "cSpell.words": [
+        "executar",
+        "Frases",
+        "gunicorn",
+        "INICIO",
+        "lista",
+        "mostrar",
+        "raiz",
+        "raizes"
+    ]
+}
