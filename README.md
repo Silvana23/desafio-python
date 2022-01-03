@@ -1,6 +1,6 @@
 ### Exemplo de Readme para o seu projeto
 
-# api-calculo
+# api-calculo *para calculo de equacoes do 2 grau**
 
 Projeto que sobe um Container e, neste, uma API RESTful com o Swagger
 

@@ -26,8 +26,7 @@ class FuncService():
         logger.debug(mensagens.INICIO_SERVICO)
         start_time = time.time()
 
-        response_predicts = self.mostrar_raiz(cal['x'], cal['y'], cal['z'])
-       
+        response_predicts = self.mostrar_raiz(cal['x'], cal['y'], cal['z'])       
         logger.debug(mensagens.FIM_SERVICO)
         logger.debug(f"Fim de todas as somas em {time.time()-start_time}")
         response = {
@@ -35,13 +34,13 @@ class FuncService():
 
         return response
 
-    def localizar_raiz(self, x, y, z):
+    def mostrar_raiz(self, x, y, z):
 
         logger.debug("calculo sendo iniciado....")
 
         delta = ((math.pow(2, y)) - 4 * x * z)
 
-        if delta < 0:sqrt = 0
+        if delta < 0: sqrt = 0
         else:sqrt = ((math.sqrt(delta)))
 
         n1 = (-y + sqrt)/(2 * x)
